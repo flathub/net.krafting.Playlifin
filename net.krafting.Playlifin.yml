@@ -1,6 +1,6 @@
 app-id: net.krafting.Playlifin
 runtime: org.gnome.Platform
-runtime-version: '45'
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: Playlifin.py
 finish-args:
@@ -30,6 +30,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-gtk
-        tag: '2.1.2'
+        tag: '2.2.0'
+        commit: 3aa53ec9a33ff55eefa7d21e8d199a5defbda1d6
 
 
