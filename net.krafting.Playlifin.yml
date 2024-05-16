@@ -30,7 +30,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-gtk
-        tag: '2.2.0'
-        commit: 3aa53ec9a33ff55eefa7d21e8d199a5defbda1d6
+        tag: '2.3.0'
+        commit: 2c834674ed9dd462b3896c89a14a01f28873780d
 
 
