@@ -4,11 +4,11 @@ runtime-version: '46'
 sdk: org.gnome.Sdk
 command: Playlifin.py
 finish-args:
-  -  --share=ipc
-  -  --device=dri
-  -  --share=network
-  -  --socket=wayland
-  -  --socket=fallback-x11
+  - --share=ipc
+  - --device=dri
+  - --share=network
+  - --socket=wayland
+  - --socket=fallback-x11
 cleanup:
   - /share/bash-completion
   - /share/doc
@@ -19,7 +19,7 @@ cleanup:
 
 modules:
   - python3-yt_dlp.json
-  
+
   - name: Playlifin
     buildsystem: simple
     build-commands:
@@ -31,6 +31,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-gtk
-        tag: '2.5.0'
-        commit: 232d8e550718aca59d64583017a1f07cfcf7c38e
+        tag: 2.5.1
+        commit: 1732d619d142e258b71e003d99aa8c0b109ea7f1
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
