@@ -27,10 +27,10 @@ modules:
       - cp -r utils/ /app/bin/utils/
       - install -Dm 0644 net.krafting.Playlifin.desktop  /app/share/applications/net.krafting.Playlifin.desktop
       - install -Dm 0644 net.krafting.Playlifin.metainfo.xml  /app/share/metainfo/net.krafting.Playlifin.metainfo.xml
-      - install -Dm 0644 images/net.krafting.Playlifin.png /app/share/icons/hicolor/512x512/apps/net.krafting.Playlifin.png
+      - install -Dm 0644 images/net.krafting.Playlifin.svg /app/share/icons/hicolor/scalable/apps/net.krafting.Playlifin.svg
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-gtk
-        tag: 2.5.1
-        commit: 1732d619d142e258b71e003d99aa8c0b109ea7f1
+        tag: 2.5.2
+        commit: 4fa1b835679c583ba821b2b5367c84c4e8c38ac2
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
