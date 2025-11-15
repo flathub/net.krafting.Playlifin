@@ -31,6 +31,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-gtk
-        tag: 2.5.5
-        commit: c523457225936156b127f27553afd2425a68ba32
+        tag: 2.6.0
+        commit: e253ed81b4bab88c82e6eee97775f2b6d4273274
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
