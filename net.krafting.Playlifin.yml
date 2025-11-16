@@ -1,6 +1,6 @@
 app-id: net.krafting.Playlifin
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: Playlifin.py
 finish-args:
