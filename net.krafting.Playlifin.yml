@@ -18,6 +18,8 @@ cleanup:
 
 
 modules:
+  - python3-requests.json 
+  
   - python3-yt_dlp.json
 
   - name: Playlifin
