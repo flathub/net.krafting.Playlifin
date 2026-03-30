@@ -18,8 +18,8 @@ cleanup:
 
 
 modules:
-  - python3-requests.json 
-  
+  - python3-requests.json
+
   - python3-yt_dlp.json
 
   - name: Playlifin
@@ -33,6 +33,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-gtk
-        tag: 2.6.3
-        commit: 7590ecdc2422c286d0bc13ad41cdd03ac993c7dc
+        tag: 2.6.4
+        commit: af69b1d666fb14fb4cab076fc3be0fc1a2dccae0
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
